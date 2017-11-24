@@ -1,0 +1,40 @@
+.order-form
+  position: relative
+  text-align: center
+  margin: 0 auto
+
+label
+  display: block
+  max-width: 100% // Force IE8 to wrap long content (see https://github.com/twbs/bootstrap/issues/13141)
+
+.form-control
+  display: block
+  vertical-align: middle
+  line-height: normal
+  font-weight: normal
+  outline: 0 none
+  text-align: center
+  margin: 0 auto
+  width: 100%
+  border: 0
+
+  //background-color: #fcfcfc
+  //+font-gp
+  //font-size: 35px
+  //border-bottom: 1px solid #dddddd
+  //padding: 48px 0 48px 0
+
+  &:focus
+
+
+
+// +placeholder(#a7a7a7) // миксин для цвета плейсхолдера
+
+.btn-group
+  position: relative
+  &.error
+    .form-control.error
+      background: #ffd4d4
+      border-color: #DB422C
+      color: #b58a8a
+      +placeholder(#b58a8a)

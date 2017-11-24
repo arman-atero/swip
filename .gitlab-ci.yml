@@ -1,0 +1,9 @@
+stages:
+  - deploy
+
+delpoysite:
+  stage: deploy
+  script:
+    - bash ~/scripts/deploy2.sh
+  only:
+    - master

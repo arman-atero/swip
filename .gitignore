@@ -1,0 +1,12 @@
+.idea
+node_modules
+bower_components
+/dist/*
+_src/scss/_auto-generate/**/*.scss
+_src/img/sprite.png
+_src/js/_auto-generate/script.js
+
+
+!.keep
+.default
+npm-debug.log
